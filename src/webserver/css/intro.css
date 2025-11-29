@@ -1,0 +1,208 @@
+/*
+The MIT License (MIT)
+
+Copyright (c) 2014-2019 Amber Creative Lab, Ltd.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
+THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+html
+{
+  font-size: 64%;
+}
+
+body
+{
+  margin: 0px;
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  color: #040404;
+  background-color: #ffffff;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+.intro
+{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: table;
+  background: #2e416a;
+  overflow: hidden;
+}
+
+.intro-content
+{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding:  5%;
+  background: #2e416a;
+}
+
+.intro-content h1
+{
+  font-size: 2.6rem;
+  color: #ffffff;
+}
+
+.intro-content p
+{
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 1em 0;
+  color: #b2b2b2;
+}
+
+.intro-content .action-wrapper
+{
+  display: inline-block;
+}
+.intro-content .action-wrapper::after
+{
+  clear: both;
+  display: table;
+}
+
+.intro-content .action-wrapper > *
+{
+  float: left;
+}
+
+.button
+{
+  display: inline-block;
+  padding: 1.3em 1.5em;
+  font-size: 1.4rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1.1px;
+  background-color: #202e4a;
+  border-radius: 1.5em;
+  margin-right: 1.5em;
+}
+
+.button:nth-of-type(2)
+{
+  margin-right: 0;
+}
+
+.button.main-action
+{
+  background-color: #fb5e58;
+}
+
+@media only screen and (max-width: 600px)
+{
+
+    html
+    {
+      font-size: 50%;
+    }
+
+    body
+    {
+      font-size: 1.6rem;
+      font-family: "Open Sans", sans-serif;
+      color: #040404;
+      background-color: #ffffff;
+    }
+
+    a
+    {
+      text-decoration: none;
+    }
+
+    .intro
+    {
+      position: relative;
+      height: 100vh;
+      width: 100%;
+      display: table;
+      background: #2e416a;
+      overflow: hidden;
+    }
+
+    .intro-content
+    {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      padding:  5%;
+      background: #2e416a;
+    }
+
+    .intro-content h1
+    {
+      font-size: 2.5rem;
+      color: #ffffff;
+    }
+
+    .intro-content p
+    {
+      font-size: 1.7rem;
+      font-weight: 700;
+      line-height: 1.4;
+      margin: 1em 0;
+      color: #b2b2b2;
+    }
+
+    .intro-content .action-wrapper
+    {
+      display: inline-block;
+    }
+    .intro-content .action-wrapper::after
+    {
+      clear: both;
+      display: table;
+    }
+
+    .intro-content .action-wrapper > *
+    {
+      float: inherit;
+    }
+
+    .button
+    {
+      display: inline-block;
+      padding: 1.3em 1.5em;
+      font-size: 1.4rem;
+      color: #ffffff;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 1.2px;
+      background-color: #202e4a;
+      border-radius: 1.5em;
+      margin-right: 0.0em;
+        margin-bottom: 15px
+    }
+
+    .button:nth-of-type(2)
+    {
+      margin-right: 0;
+    }
+
+    .button.main-action
+    {
+        margin-top: 10px;
+      background-color: #fb5e58;
+    }
+
+}
